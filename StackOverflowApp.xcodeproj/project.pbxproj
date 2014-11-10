@@ -31,9 +31,9 @@
 
 /* Begin PBXFileReference section */
 		EB1E7D0C1A11793600F3F95C /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
-		EB1E7D0E1A11795700F3F95C /* Question.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
-		EB1E7D0F1A11796E00F3F95C /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		EB1E7D101A11797800F3F95C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		EB1E7D121A117AAB00F3F95C /* Question.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		EB1E7D131A117AB600F3F95C /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		EBEDF43B1A11577700F51936 /* StackOverflowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEDF43F1A11577700F51936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBEDF4401A11577700F51936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,9 +71,9 @@
 		EB1E7D091A1178FF00F3F95C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EB1E7D0F1A11796E00F3F95C /* User.h */,
+				EB1E7D131A117AB600F3F95C /* User.h */,
 				EB1E7D101A11797800F3F95C /* User.m */,
-				EB1E7D0E1A11795700F3F95C /* Question.h */,
+				EB1E7D121A117AAB00F3F95C /* Question.h */,
 				EB1E7D0C1A11793600F3F95C /* Question.m */,
 			);
 			name = Model;

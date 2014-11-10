@@ -6,8 +6,12 @@
 //  Copyright (c) 2014 VincentLee. All rights reserved.
 //
 
-#ifndef StackOverflowApp_Question_h
-#define StackOverflowApp_Question_h
+#import <Foundation/Foundation.h>
 
+@interface Question : NSObject
 
-#endif
+@property (nonatomic, strong) NSString *ID;
+@property (nonatomic, strong) NSString *answer;
+@property (nonatomic, strong) NSString *comments;
+
+@end

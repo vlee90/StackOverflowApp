@@ -7,3 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "User.h"
+
+@implementation User
+
+<#methods#>
+
+@end

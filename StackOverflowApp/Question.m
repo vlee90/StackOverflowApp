@@ -7,3 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Question.h"
+
+@implementation Question
+
+<#methods#>
+
+@end

@@ -6,8 +6,11 @@
 //  Copyright (c) 2014 VincentLee. All rights reserved.
 //
 
-#ifndef StackOverflowApp_User_h
-#define StackOverflowApp_User_h
+#import <Foundation/Foundation.h>
 
+@interface User: NSObject
 
-#endif
+@property (nonatomic, strong) NSString *ID;
+@property (nonatomic, strong) NSString *answers;
+
+@end
