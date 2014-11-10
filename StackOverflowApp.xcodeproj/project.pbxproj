@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB1E7D0D1A11793600F3F95C /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E7D0C1A11793600F3F95C /* Question.m */; };
+		EB1E7D111A11797800F3F95C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E7D101A11797800F3F95C /* User.m */; };
 		EBEDF4411A11577700F51936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEDF4401A11577700F51936 /* main.m */; };
 		EBEDF4441A11577700F51936 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEDF4431A11577700F51936 /* AppDelegate.m */; };
 		EBEDF4471A11577700F51936 /* StackOverflowApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBEDF4451A11577700F51936 /* StackOverflowApp.xcdatamodeld */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB1E7D0C1A11793600F3F95C /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		EB1E7D0E1A11795700F3F95C /* Question.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		EB1E7D0F1A11796E00F3F95C /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		EB1E7D101A11797800F3F95C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		EBEDF43B1A11577700F51936 /* StackOverflowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEDF43F1A11577700F51936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBEDF4401A11577700F51936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +68,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB1E7D091A1178FF00F3F95C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB1E7D0F1A11796E00F3F95C /* User.h */,
+				EB1E7D101A11797800F3F95C /* User.m */,
+				EB1E7D0E1A11795700F3F95C /* Question.h */,
+				EB1E7D0C1A11793600F3F95C /* Question.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EB1E7D0A1A11790500F3F95C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBEDF44B1A11577700F51936 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EB1E7D0B1A11790900F3F95C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBEDF4481A11577700F51936 /* ViewController.h */,
+				EBEDF4491A11577700F51936 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		EBEDF4321A11577700F51936 = {
 			isa = PBXGroup;
 			children = (
@@ -85,9 +119,9 @@
 			children = (
 				EBEDF4421A11577700F51936 /* AppDelegate.h */,
 				EBEDF4431A11577700F51936 /* AppDelegate.m */,
-				EBEDF4481A11577700F51936 /* ViewController.h */,
-				EBEDF4491A11577700F51936 /* ViewController.m */,
-				EBEDF44B1A11577700F51936 /* Main.storyboard */,
+				EB1E7D0B1A11790900F3F95C /* Controller */,
+				EB1E7D0A1A11790500F3F95C /* View */,
+				EB1E7D091A1178FF00F3F95C /* Model */,
 				EBEDF44E1A11577700F51936 /* Images.xcassets */,
 				EBEDF4501A11577700F51936 /* LaunchScreen.xib */,
 				EBEDF4451A11577700F51936 /* StackOverflowApp.xcdatamodeld */,
@@ -224,6 +258,8 @@
 			files = (
 				EBEDF4441A11577700F51936 /* AppDelegate.m in Sources */,
 				EBEDF4411A11577700F51936 /* main.m in Sources */,
+				EB1E7D111A11797800F3F95C /* User.m in Sources */,
+				EB1E7D0D1A11793600F3F95C /* Question.m in Sources */,
 				EBEDF44A1A11577700F51936 /* ViewController.m in Sources */,
 				EBEDF4471A11577700F51936 /* StackOverflowApp.xcdatamodeld in Sources */,
 			);
@@ -418,6 +454,7 @@
 				EBEDF4631A11577700F51936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBEDF4641A11577700F51936 /* Build configuration list for PBXNativeTarget "StackOverflowAppTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +463,7 @@
 				EBEDF4661A11577700F51936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
