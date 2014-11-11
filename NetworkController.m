@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong) NSURLSession *session;
 @property (nonatomic, strong) NSURLSessionConfiguration *configuration;
+@property (nonatomic, strong) NSOperationQueue *queue;
 
 @end
 
@@ -27,13 +28,12 @@
     if (self) {
         self.configuration = [NSURLSessionConfiguration ephemeralSessionConfiguration];
         self.session = [NSURLSession sessionWithConfiguration: self.configuration];
-        
     }
     return self;
 }
 
 - (void) fetchQuestionBasedOnTag: (NSString *) tag completionBlock:(void(^)(NSDictionary *data, NSError *error))completionBlockName {
-    NSMutableString *urlString = [NSMutableString stringWithFormat: @"https://api.stackexchange.com/2.2/questions?order=desc&sort=activity&tagged=%@&site=stackoverflow", tag];
+    NSString *urlString = [NSString stringWithFormat: @"https://api.stackexchange.com/2.2/questions?order=desc&sort=activity&tagged=%@&site=stackoverflow", tag];
     NSURL *url = [[NSURL alloc] initWithString: urlString];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL: url];
     request.HTTPMethod = @"GET";

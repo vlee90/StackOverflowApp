@@ -21,9 +21,7 @@
     NetworkController *networkController = [self.appDelegate networkController];
     [networkController fetchQuestionBasedOnTag: @"Swift" completionBlock:^(NSDictionary *data, NSError *error) {
         if (error == nil) {
-            NSLog(@"Success");
             NSArray *itemDictionary = (NSArray *)[data objectForKey:@"items"];
-            NSLog(@"%@", itemDictionary);
         }
     }];
     
