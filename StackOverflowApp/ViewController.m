@@ -20,7 +20,11 @@
     self.appDelegate = [[UIApplication sharedApplication] delegate];
     NetworkController *networkController = [self.appDelegate networkController];
     [networkController fetchQuestionBasedOnTag: @"Swift" completionBlock:^(NSDictionary *data, NSError *error) {
-        NSLog(@"More Success");
+        if (error == nil) {
+            NSLog(@"Success");
+            NSArray *itemDictionary = (NSArray *)[data objectForKey:@"items"];
+            NSLog(@"%@", itemDictionary);
+        }
     }];
     
 }

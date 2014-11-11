@@ -15,6 +15,9 @@
 
 @end
 
+
+
+
 @implementation NetworkController
 
 
@@ -39,8 +42,11 @@
         if ([httpResponse isKindOfClass:[NSHTTPURLResponse class]]) {
             NSInteger code = [httpResponse statusCode];
             if (code <= 299 && code >= 200) {
-                NSLog(@"Success");
-                completionBlockName(nil, nil);
+                NSLog(@"%ld: Success", code);
+                NSDictionary *dictionary = [self parseJSON:data];
+                [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                    completionBlockName(dictionary, error);
+                }];
             }
             else if (code == 400) {
                 NSLog(@"%ld: Bad Request - Syntax error likely", code);
