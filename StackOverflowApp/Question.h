@@ -10,8 +10,10 @@
 
 @interface Question : NSObject
 
-@property (nonatomic, strong) NSString *ID;
+@property NSInteger ID;
 @property (nonatomic, strong) NSString *answer;
 @property (nonatomic, strong) NSString *comments;
+@property (nonatomic, strong) NSDictionary *dictionary;
+
 
 @end

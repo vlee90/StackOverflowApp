@@ -11,6 +11,6 @@
 @interface User: NSObject
 
 @property (nonatomic, strong) NSString *ID;
-@property (nonatomic, strong) NSString *answers;
+@property NSInteger answers;
 
 @end

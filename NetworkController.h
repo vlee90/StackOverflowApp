@@ -11,9 +11,8 @@
 
 @interface NetworkController: NSObject
 
-@property (nonatomic, strong) NSURLSession *session;
-@property (nonatomic, strong) NSURLSessionConfiguration *configuration;
+- (void) fetchQuestionBasedOnTag: (NSString *) tag completionBlock:(void(^)(NSDictionary *data, NSError *error))completionBlockName;
 
-- (void) fetchQuestionBasedOnTag: (NSString *) tag;
+- (NSDictionary *) parseJSON:(NSData *)JSONData;
 
 @end

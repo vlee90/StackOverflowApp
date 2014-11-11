@@ -19,7 +19,9 @@
     [super viewDidLoad];
     self.appDelegate = [[UIApplication sharedApplication] delegate];
     NetworkController *networkController = [self.appDelegate networkController];
-    [networkController fetchQuestionBasedOnTag: @"Java"];
+    [networkController fetchQuestionBasedOnTag: @"Swift" completionBlock:^(NSDictionary *data, NSError *error) {
+        NSLog(@"More Success");
+    }];
     
 }
 
