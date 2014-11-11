@@ -22,7 +22,7 @@
 {
     self = [super init];
     if (self) {
-        self.configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+        self.configuration = [NSURLSessionConfiguration ephemeralSessionConfiguration];
         self.session = [NSURLSession sessionWithConfiguration: self.configuration];
         
     }
@@ -37,9 +37,29 @@
     NSURLSessionDataTask *dataTask = [[self session] dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
         if ([httpResponse isKindOfClass:[NSHTTPURLResponse class]]) {
-            NSLog(@"Success");
-            
-            completionBlockName(nil, nil);
+            NSInteger code = [httpResponse statusCode];
+            if (code <= 299 && code >= 200) {
+                NSLog(@"Success");
+                completionBlockName(nil, nil);
+            }
+            else if (code == 400) {
+                NSLog(@"%ld: Bad Request - Syntax error likely", code);
+            }
+            else if (code == 401) {
+                NSLog(@"%ld: Unauthorized - Authorization either not provided or incorrect", code);
+            }
+            else if (code == 403) {
+                NSLog(@"%ld: Forbidden - Request valid, but server will not respond", code);
+            }
+            else if (code == 404) {
+                NSLog(@"%ld: Not Found - Resource not found", code);
+            }
+            else if (code == 429) {
+                NSLog(@"%ld: Too many requests - Rate limited", code);
+            }
+            else if (code <= 599 && code >= 500) {
+                NSLog(@"%ld: Server failed", code);
+            }
         }
         else {
             NSLog(@"%@", [error description]);
