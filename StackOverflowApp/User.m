@@ -11,6 +11,6 @@
 
 @implementation User
 
-<#methods#>
+
 
 @end

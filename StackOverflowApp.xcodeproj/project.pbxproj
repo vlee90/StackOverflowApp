@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EB1E7D0D1A11793600F3F95C /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E7D0C1A11793600F3F95C /* Question.m */; };
 		EB1E7D111A11797800F3F95C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E7D101A11797800F3F95C /* User.m */; };
+		EB1E7D1B1A1187DC00F3F95C /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E7D1A1A1187DC00F3F95C /* NetworkController.m */; };
 		EBEDF4411A11577700F51936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEDF4401A11577700F51936 /* main.m */; };
 		EBEDF4441A11577700F51936 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEDF4431A11577700F51936 /* AppDelegate.m */; };
 		EBEDF4471A11577700F51936 /* StackOverflowApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBEDF4451A11577700F51936 /* StackOverflowApp.xcdatamodeld */; };
@@ -34,6 +35,8 @@
 		EB1E7D101A11797800F3F95C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		EB1E7D121A117AAB00F3F95C /* Question.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		EB1E7D131A117AB600F3F95C /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		EB1E7D1A1A1187DC00F3F95C /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkController.m; path = ../NetworkController.m; sourceTree = "<group>"; };
+		EB1E7D1C1A1187E800F3F95C /* NetworkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NetworkController.h; path = ../NetworkController.h; sourceTree = "<group>"; };
 		EBEDF43B1A11577700F51936 /* StackOverflowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEDF43F1A11577700F51936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBEDF4401A11577700F51936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 		EB1E7D0B1A11790900F3F95C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EB1E7D1C1A1187E800F3F95C /* NetworkController.h */,
+				EB1E7D1A1A1187DC00F3F95C /* NetworkController.m */,
 				EBEDF4481A11577700F51936 /* ViewController.h */,
 				EBEDF4491A11577700F51936 /* ViewController.m */,
 			);
@@ -260,6 +265,7 @@
 				EBEDF4411A11577700F51936 /* main.m in Sources */,
 				EB1E7D111A11797800F3F95C /* User.m in Sources */,
 				EB1E7D0D1A11793600F3F95C /* Question.m in Sources */,
+				EB1E7D1B1A1187DC00F3F95C /* NetworkController.m in Sources */,
 				EBEDF44A1A11577700F51936 /* ViewController.m in Sources */,
 				EBEDF4471A11577700F51936 /* StackOverflowApp.xcdatamodeld in Sources */,
 			);

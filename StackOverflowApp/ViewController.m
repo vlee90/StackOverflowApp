@@ -10,13 +10,17 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) AppDelegate *appDelegate;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.appDelegate = [[UIApplication sharedApplication] delegate];
+    NetworkController *networkController = [self.appDelegate networkController];
+    [networkController fetchQuestionBasedOnTag: @"Java"];
+    
 }
 
 @end

@@ -6,11 +6,10 @@
 //  Copyright (c) 2014 VincentLee. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "Question.h"
 
 @implementation Question
 
-<#methods#>
+
 
 @end

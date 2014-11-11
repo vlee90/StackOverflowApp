@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="yLL-aa-dXo">
             <objects>
-                <viewController id="Yx8-oH-SVb" sceneMemberID="viewController">
+                <viewController id="Yx8-oH-SVb" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fFY-ya-kw7"/>
                         <viewControllerLayoutGuide type="bottom" id="uDw-yz-Yd1"/>
@@ -15,7 +15,7 @@
                     <view key="view" contentMode="scaleToFill" id="Ttb-kR-Rhg">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.29599234320000001" blue="0.2238535166" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pbl-YY-hGx" userLabel="First Responder" sceneMemberID="firstResponder"/>
