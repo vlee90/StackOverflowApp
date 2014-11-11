@@ -30,7 +30,7 @@
 }
 
 - (void) fetchQuestionBasedOnTag: (NSString *) tag completionBlock:(void(^)(NSDictionary *data, NSError *error))completionBlockName {
-    NSMutableString *urlString = [NSMutableString stringWithFormat: @"https://stackoverflow.com/2.2/questions?order=desc&sort=activity&tagged=%@&site=stackoverflow", tag];
+    NSMutableString *urlString = [NSMutableString stringWithFormat: @"https://api.stackexchange.com/2.2/questions?order=desc&sort=activity&tagged=%@&site=stackoverflow", tag];
     NSURL *url = [[NSURL alloc] initWithString: urlString];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL: url];
     request.HTTPMethod = @"GET";
