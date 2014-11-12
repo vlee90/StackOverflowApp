@@ -10,6 +10,8 @@
 		EB1E7D0D1A11793600F3F95C /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E7D0C1A11793600F3F95C /* Question.m */; };
 		EB1E7D111A11797800F3F95C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E7D101A11797800F3F95C /* User.m */; };
 		EB1E7D1B1A1187DC00F3F95C /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1E7D1A1A1187DC00F3F95C /* NetworkController.m */; };
+		EBB4DB621A1411A700893D1E /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB4DB611A1411A700893D1E /* SplitViewController.m */; };
+		EBB4DB651A14143400893D1E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB4DB641A14143400893D1E /* WebViewController.m */; };
 		EBBC2E1A1A12DC3E00532736 /* QuestionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBC2E191A12DC3E00532736 /* QuestionTableViewController.m */; };
 		EBBC2E1C1A12DCC300532736 /* QuestionTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBBC2E1B1A12DCC300532736 /* QuestionTableCell.xib */; };
 		EBBC2E1F1A12DD0300532736 /* QuestionTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBC2E1E1A12DD0300532736 /* QuestionTableCell.m */; };
@@ -40,6 +42,10 @@
 		EB1E7D131A117AB600F3F95C /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		EB1E7D1A1A1187DC00F3F95C /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkController.m; path = ../NetworkController.m; sourceTree = "<group>"; };
 		EB1E7D1C1A1187E800F3F95C /* NetworkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NetworkController.h; path = ../NetworkController.h; sourceTree = "<group>"; };
+		EBB4DB601A1411A700893D1E /* SplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
+		EBB4DB611A1411A700893D1E /* SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
+		EBB4DB631A14143400893D1E /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		EBB4DB641A14143400893D1E /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		EBBC2E181A12DC3E00532736 /* QuestionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionTableViewController.h; sourceTree = "<group>"; };
 		EBBC2E191A12DC3E00532736 /* QuestionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTableViewController.m; sourceTree = "<group>"; };
 		EBBC2E1B1A12DCC300532736 /* QuestionTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionTableCell.xib; sourceTree = "<group>"; };
@@ -110,6 +116,10 @@
 				EBEDF4491A11577700F51936 /* ViewController.m */,
 				EBBC2E181A12DC3E00532736 /* QuestionTableViewController.h */,
 				EBBC2E191A12DC3E00532736 /* QuestionTableViewController.m */,
+				EBB4DB601A1411A700893D1E /* SplitViewController.h */,
+				EBB4DB611A1411A700893D1E /* SplitViewController.m */,
+				EBB4DB631A14143400893D1E /* WebViewController.h */,
+				EBB4DB641A14143400893D1E /* WebViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -277,11 +287,13 @@
 			files = (
 				EBEDF4441A11577700F51936 /* AppDelegate.m in Sources */,
 				EBBC2E1F1A12DD0300532736 /* QuestionTableCell.m in Sources */,
+				EBB4DB651A14143400893D1E /* WebViewController.m in Sources */,
 				EBEDF4411A11577700F51936 /* main.m in Sources */,
 				EB1E7D111A11797800F3F95C /* User.m in Sources */,
 				EB1E7D0D1A11793600F3F95C /* Question.m in Sources */,
 				EB1E7D1B1A1187DC00F3F95C /* NetworkController.m in Sources */,
 				EBEDF44A1A11577700F51936 /* ViewController.m in Sources */,
+				EBB4DB621A1411A700893D1E /* SplitViewController.m in Sources */,
 				EBEDF4471A11577700F51936 /* StackOverflowApp.xcdatamodeld in Sources */,
 				EBBC2E1A1A12DC3E00532736 /* QuestionTableViewController.m in Sources */,
 			);

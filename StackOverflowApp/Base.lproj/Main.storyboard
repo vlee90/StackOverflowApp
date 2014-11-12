@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uax-oe-Cp8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JhJ-5u-CGm">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -155,6 +155,24 @@
             <point key="canvasLocation" x="1143" y="-898"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="ee7-Ty-KFA">
+            <objects>
+                <viewController id="MJ1-Oc-9Pj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cQv-Ei-Fky"/>
+                        <viewControllerLayoutGuide type="bottom" id="ny7-3C-KR1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MhW-W3-zMb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X9Y-IB-3PG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1873" y="-898"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="pbE-hy-bhH">
             <objects>
                 <viewController id="cBB-mh-AEY" sceneMemberID="viewController">
@@ -187,6 +205,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pVQ-jG-hHc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-478" y="-343"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="D3f-qc-qYE">
+            <objects>
+                <viewController id="JhJ-5u-CGm" customClass="SplitViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e9G-zC-lu9"/>
+                        <viewControllerLayoutGuide type="bottom" id="DIa-C6-peP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oKR-Mt-C1e">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="azC-0l-Mwn">
+                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                                <connections>
+                                    <segue destination="uax-oe-Cp8" kind="embed" id="T71-d2-8h3"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DIa-C6-peP" firstAttribute="top" secondItem="azC-0l-Mwn" secondAttribute="bottom" id="8eE-uT-mFI"/>
+                            <constraint firstItem="azC-0l-Mwn" firstAttribute="top" secondItem="oKR-Mt-C1e" secondAttribute="topMargin" id="PDh-Pq-Ijl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="azC-0l-Mwn" secondAttribute="trailing" id="QwG-uv-7zy"/>
+                            <constraint firstItem="azC-0l-Mwn" firstAttribute="leading" secondItem="oKR-Mt-C1e" secondAttribute="leadingMargin" id="xIz-cy-Ob5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3yS-wS-99p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2071" y="-5"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="2fL-ud-kcN">
