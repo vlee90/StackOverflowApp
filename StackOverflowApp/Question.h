@@ -11,9 +11,10 @@
 @interface Question : NSObject
 
 @property NSInteger ID;
-@property (nonatomic, strong) NSString *answer;
-@property (nonatomic, strong) NSString *comments;
-@property (nonatomic, strong) NSDictionary *dictionary;
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSURL *link;
+
+- (instancetype)initWithDictionary: (NSDictionary *)dict;
 
 
 @end

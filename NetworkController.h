@@ -8,10 +8,11 @@
 
 
 #import <Foundation/Foundation.h>
+#import "Question.h"
 
 @interface NetworkController: NSObject
 
-- (void) fetchQuestionBasedOnTag: (NSString *) tag completionBlock:(void(^)(NSDictionary *data, NSError *error))completionBlockName;
+- (void) fetchQuestionBasedOnTag: (NSString *) tag completionBlock:(void(^)(NSMutableArray *questionArray, NSError *error))completionBlockName;
 
 - (NSDictionary *) parseJSON:(NSData *)JSONData;
 
