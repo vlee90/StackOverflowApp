@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) AppDelegate *appDelegate;
 @property (weak, nonatomic) NetworkController *networkController;
+@property (strong, nonatomic) WebViewController *webViewController;
 @property (strong, nonatomic) NSArray *questionArray;
 @property (strong, nonatomic) NSString *nameNib;
 @property (strong, nonatomic) NSString *cellReuseIdentifier;
@@ -61,9 +62,10 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    Question *question = [self.questionArray objectAtIndex:[indexPath row]];
+    WebViewController *toVC = [[self storyboard] instantiateViewControllerWithIdentifier:@"WEBVIEW"];
+    toVC.url = [question link];
+    [self presentViewController:toVC animated:true completion:nil];
 }
-
-
 
 @end

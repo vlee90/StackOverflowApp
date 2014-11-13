@@ -13,6 +13,9 @@
 @property (nonatomic, strong) NSURLSession *session;
 @property (nonatomic, strong) NSURLSessionConfiguration *configuration;
 @property (nonatomic, strong) NSOperationQueue *queue;
+@property (nonatomic, strong) NSString *apiDomain;
+@property (nonatomic, strong) NSString *apiSite;
+@property (nonatomic, strong) NSString *token;
 
 @end
 
@@ -28,6 +31,9 @@
     if (self) {
         self.configuration = [NSURLSessionConfiguration ephemeralSessionConfiguration];
         self.session = [NSURLSession sessionWithConfiguration: self.configuration];
+        self.apiDomain = @"http://api.stackexchange.com/2.2/";
+        self.apiSite = @"site=stackoverflow";
+        
     }
     return self;
 }

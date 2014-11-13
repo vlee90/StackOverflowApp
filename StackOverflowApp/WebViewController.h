@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <WebKit/WebKit.h>
 
-@interface WebViewController : ViewController
+@interface WebViewController : UIViewController
+
+@property (nonatomic, strong) NSURL *url;
 
 @end

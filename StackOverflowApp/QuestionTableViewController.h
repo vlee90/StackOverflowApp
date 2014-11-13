@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "QuestionTableCell.h"
 #import "AppDelegate.h"
+#import "WebViewController.h"
 
 @interface QuestionTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
 

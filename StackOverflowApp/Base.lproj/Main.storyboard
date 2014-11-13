@@ -154,10 +154,10 @@
             </objects>
             <point key="canvasLocation" x="1143" y="-898"/>
         </scene>
-        <!--View Controller-->
+        <!--Web View Controller-->
         <scene sceneID="ee7-Ty-KFA">
             <objects>
-                <viewController id="MJ1-Oc-9Pj" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WEBVIEW" id="MJ1-Oc-9Pj" customClass="WebViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cQv-Ei-Fky"/>
                         <viewControllerLayoutGuide type="bottom" id="ny7-3C-KR1"/>
