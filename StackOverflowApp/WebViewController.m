@@ -11,7 +11,6 @@
 @interface WebViewController ()
 
 @property (nonatomic, strong) WKWebView *webView;
-@property (nonatomic, weak) AppDelegate *appDelegate;
 
 
 @end
@@ -21,9 +20,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.appDelegate = [[UIApplication sharedApplication] delegate];
     self.webView = [[WKWebView alloc] init];
     self.view = [self webView];
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL: self.url];
+    [[self webView] loadRequest: request];
     
 }
 
