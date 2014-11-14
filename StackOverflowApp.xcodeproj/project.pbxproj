@@ -15,6 +15,8 @@
 		EBBC2E1A1A12DC3E00532736 /* QuestionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBC2E191A12DC3E00532736 /* QuestionTableViewController.m */; };
 		EBBC2E1C1A12DCC300532736 /* QuestionTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBBC2E1B1A12DCC300532736 /* QuestionTableCell.xib */; };
 		EBBC2E1F1A12DD0300532736 /* QuestionTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBC2E1E1A12DD0300532736 /* QuestionTableCell.m */; };
+		EBE16D4D1A15AA1500B5883C /* NetworkControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE16D4C1A15AA1500B5883C /* NetworkControllerTest.m */; };
+		EBE16D501A15AF0200B5883C /* dummy.json in Resources */ = {isa = PBXBuildFile; fileRef = EBE16D4F1A15AF0200B5883C /* dummy.json */; };
 		EBEDF4411A11577700F51936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEDF4401A11577700F51936 /* main.m */; };
 		EBEDF4441A11577700F51936 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEDF4431A11577700F51936 /* AppDelegate.m */; };
 		EBEDF4471A11577700F51936 /* StackOverflowApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBEDF4451A11577700F51936 /* StackOverflowApp.xcdatamodeld */; };
@@ -52,6 +54,8 @@
 		EBBC2E1B1A12DCC300532736 /* QuestionTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionTableCell.xib; sourceTree = "<group>"; };
 		EBBC2E1D1A12DD0300532736 /* QuestionTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionTableCell.h; sourceTree = "<group>"; };
 		EBBC2E1E1A12DD0300532736 /* QuestionTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTableCell.m; sourceTree = "<group>"; };
+		EBE16D4C1A15AA1500B5883C /* NetworkControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkControllerTest.m; path = ../NetworkControllerTest.m; sourceTree = "<group>"; };
+		EBE16D4F1A15AF0200B5883C /* dummy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dummy.json; sourceTree = "<group>"; };
 		EBEDF43B1A11577700F51936 /* StackOverflowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEDF43F1A11577700F51936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBEDF4401A11577700F51936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 		EBEDF4321A11577700F51936 = {
 			isa = PBXGroup;
 			children = (
+				EBE16D4F1A15AF0200B5883C /* dummy.json */,
 				EBEDF43D1A11577700F51936 /* StackOverflowApp */,
 				EBEDF45A1A11577700F51936 /* StackOverflowAppTests */,
 				EBEDF43C1A11577700F51936 /* Products */,
@@ -176,6 +181,7 @@
 		EBEDF45A1A11577700F51936 /* StackOverflowAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				EBE16D4C1A15AA1500B5883C /* NetworkControllerTest.m */,
 				EBEDF45D1A11577700F51936 /* StackOverflowAppTests.m */,
 				EBEDF45B1A11577700F51936 /* Supporting Files */,
 			);
@@ -274,6 +280,7 @@
 				EBF73F961A1587D60077A5E9 /* Localizable.strings in Resources */,
 				EBEDF44D1A11577700F51936 /* Main.storyboard in Resources */,
 				EBEDF4521A11577700F51936 /* LaunchScreen.xib in Resources */,
+				EBE16D501A15AF0200B5883C /* dummy.json in Resources */,
 				EBBC2E1C1A12DCC300532736 /* QuestionTableCell.xib in Resources */,
 				EBEDF44F1A11577700F51936 /* Images.xcassets in Resources */,
 			);
@@ -311,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE16D4D1A15AA1500B5883C /* NetworkControllerTest.m in Sources */,
 				EBEDF45E1A11577700F51936 /* StackOverflowAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
