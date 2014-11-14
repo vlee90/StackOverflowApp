@@ -15,7 +15,6 @@
 @property (nonatomic, strong) NSOperationQueue *queue;
 @property (nonatomic, strong) NSString *apiDomain;
 @property (nonatomic, strong) NSString *apiSite;
-@property (nonatomic, strong) NSString *token;
 
 @end
 
@@ -36,6 +35,11 @@
         
     }
     return self;
+}
+
+- (void) requestOAuth: (NSString *) url {
+    NSURL *getURL = [[NSURL alloc] initWithString:url];
+    [[UIApplication sharedApplication] openURL: getURL];
 }
 
 - (void) fetchQuestionBasedOnTag: (NSString *) tag completionBlock:(void(^)(NSMutableArray *questionArray, NSError *error))completionBlockName {

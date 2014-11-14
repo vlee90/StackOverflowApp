@@ -57,15 +57,15 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     QuestionTableCell *cell = [tableView dequeueReusableCellWithIdentifier: self.cellReuseIdentifier forIndexPath:indexPath];
-    cell.titleLabel.text = [[[self questionArray] objectAtIndex:[indexPath row]] title];
+    cell.titleLabel.text = [[[self questionArray] objectAtIndex:[indexPath row]]title];
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    Question *question = [self.questionArray objectAtIndex:[indexPath row]];
-    WebViewController *toVC = [[self storyboard] instantiateViewControllerWithIdentifier:@"WEBVIEW"];
-    toVC.url = [question link];
-    [self presentViewController:toVC animated:true completion:nil];
+//    Question *question = [self.questionArray objectAtIndex:[indexPath row]];
+//    WebViewController *toVC = [[self storyboard] instantiateViewControllerWithIdentifier:@"WEBVIEW"];
+//    toVC.url = [question link];
+//    [self presentViewController:toVC animated:true completion:nil];
 }
 
 @end

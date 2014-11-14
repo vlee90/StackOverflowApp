@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 VincentLee. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AppDelegate.h"
 #import <WebKit/WebKit.h>
 
-@interface WebViewController : UIViewController
+@interface WebViewController : UIViewController <WKNavigationDelegate>
 
-@property (nonatomic, strong) NSURL *url;
+-(void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler;
 
 @end

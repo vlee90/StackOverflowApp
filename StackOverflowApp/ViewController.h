@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
 
-@interface ViewController : UIViewController <UISplitViewControllerDelegate>
+@interface ViewController : UIViewController
+
 
 
 @end

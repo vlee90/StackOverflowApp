@@ -10,14 +10,14 @@
 
 @interface ViewController ()
 
-@property (nonatomic, weak) AppDelegate *appDelegate;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.title = @"HI";
     
 }
 

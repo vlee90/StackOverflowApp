@@ -18,7 +18,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.networkController = [[NetworkController alloc] init];
+    NSString *token = [[NSUserDefaults standardUserDefaults] stringForKey:@"token"];
     
+    if (token == nil) {
+        dispatch_after(1, dispatch_get_main_queue(), ^{
+            WebViewController *webView = [[WebViewController alloc] init];
+            [((UIWindow *)[[UIApplication sharedApplication].windows firstObject]).rootViewController presentViewController: webView animated:YES completion:nil];
+    });
+    }
+    else {
+        self.networkController.token = token;
+    }
     return YES;
 }
 
