@@ -18,6 +18,7 @@
 @property (strong, nonatomic) NSArray *questionArray;
 @property (strong, nonatomic) NSString *nameNib;
 @property (strong, nonatomic) NSString *cellReuseIdentifier;
+@property (weak, nonatomic) IBOutlet UILabel *topLabel;
 
 @end
 
@@ -33,6 +34,7 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     self.searchBar.delegate = self;
+    self.topLabel.text = NSLocalizedString(@"Type in Tag", @"Top Text");
     UINib *nib = [UINib nibWithNibName: self.nameNib bundle:[NSBundle mainBundle]];
     [self.tableView registerNib:nib forCellReuseIdentifier: self.cellReuseIdentifier];
     

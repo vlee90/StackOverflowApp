@@ -15,9 +15,6 @@
 		EBBC2E1A1A12DC3E00532736 /* QuestionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBC2E191A12DC3E00532736 /* QuestionTableViewController.m */; };
 		EBBC2E1C1A12DCC300532736 /* QuestionTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBBC2E1B1A12DCC300532736 /* QuestionTableCell.xib */; };
 		EBBC2E1F1A12DD0300532736 /* QuestionTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBC2E1E1A12DD0300532736 /* QuestionTableCell.m */; };
-		EBE16D441A1591F700B5883C /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE16D431A1591F700B5883C /* MainTableViewController.m */; };
-		EBE16D481A15923E00B5883C /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE16D461A15923E00B5883C /* MainTableViewCell.m */; };
-		EBE16D491A15923E00B5883C /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE16D471A15923E00B5883C /* MainTableViewCell.xib */; };
 		EBEDF4411A11577700F51936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEDF4401A11577700F51936 /* main.m */; };
 		EBEDF4441A11577700F51936 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEDF4431A11577700F51936 /* AppDelegate.m */; };
 		EBEDF4471A11577700F51936 /* StackOverflowApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBEDF4451A11577700F51936 /* StackOverflowApp.xcdatamodeld */; };
@@ -55,11 +52,6 @@
 		EBBC2E1B1A12DCC300532736 /* QuestionTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionTableCell.xib; sourceTree = "<group>"; };
 		EBBC2E1D1A12DD0300532736 /* QuestionTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionTableCell.h; sourceTree = "<group>"; };
 		EBBC2E1E1A12DD0300532736 /* QuestionTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTableCell.m; sourceTree = "<group>"; };
-		EBE16D421A1591F700B5883C /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
-		EBE16D431A1591F700B5883C /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
-		EBE16D451A15923E00B5883C /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
-		EBE16D461A15923E00B5883C /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
-		EBE16D471A15923E00B5883C /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		EBEDF43B1A11577700F51936 /* StackOverflowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEDF43F1A11577700F51936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBEDF4401A11577700F51936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -107,8 +99,6 @@
 				EB1E7D0C1A11793600F3F95C /* Question.m */,
 				EBBC2E1D1A12DD0300532736 /* QuestionTableCell.h */,
 				EBBC2E1E1A12DD0300532736 /* QuestionTableCell.m */,
-				EBE16D451A15923E00B5883C /* MainTableViewCell.h */,
-				EBE16D461A15923E00B5883C /* MainTableViewCell.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -118,7 +108,6 @@
 			children = (
 				EBEDF44B1A11577700F51936 /* Main.storyboard */,
 				EBBC2E1B1A12DCC300532736 /* QuestionTableCell.xib */,
-				EBE16D471A15923E00B5883C /* MainTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -132,8 +121,6 @@
 				EBEDF4491A11577700F51936 /* ViewController.m */,
 				EBBC2E181A12DC3E00532736 /* QuestionTableViewController.h */,
 				EBBC2E191A12DC3E00532736 /* QuestionTableViewController.m */,
-				EBE16D421A1591F700B5883C /* MainTableViewController.h */,
-				EBE16D431A1591F700B5883C /* MainTableViewController.m */,
 				EBB4DB601A1411A700893D1E /* SplitViewController.h */,
 				EBB4DB611A1411A700893D1E /* SplitViewController.m */,
 				EBB4DB631A14143400893D1E /* WebViewController.h */,
@@ -284,7 +271,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBE16D491A15923E00B5883C /* MainTableViewCell.xib in Resources */,
 				EBF73F961A1587D60077A5E9 /* Localizable.strings in Resources */,
 				EBEDF44D1A11577700F51936 /* Main.storyboard in Resources */,
 				EBEDF4521A11577700F51936 /* LaunchScreen.xib in Resources */,
@@ -313,10 +299,8 @@
 				EBEDF4411A11577700F51936 /* main.m in Sources */,
 				EB1E7D111A11797800F3F95C /* User.m in Sources */,
 				EB1E7D0D1A11793600F3F95C /* Question.m in Sources */,
-				EBE16D481A15923E00B5883C /* MainTableViewCell.m in Sources */,
 				EB1E7D1B1A1187DC00F3F95C /* NetworkController.m in Sources */,
 				EBEDF44A1A11577700F51936 /* ViewController.m in Sources */,
-				EBE16D441A1591F700B5883C /* MainTableViewController.m in Sources */,
 				EBB4DB621A1411A700893D1E /* SplitViewController.m in Sources */,
 				EBEDF4471A11577700F51936 /* StackOverflowApp.xcdatamodeld in Sources */,
 				EBBC2E1A1A12DC3E00532736 /* QuestionTableViewController.m in Sources */,
