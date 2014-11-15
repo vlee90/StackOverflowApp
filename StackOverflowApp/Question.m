@@ -10,6 +10,14 @@
 
 @implementation Question
 
-
+- (instancetype)initWithDictionary: (NSDictionary *) dict
+{
+    self = [super init];
+    if (self) {
+        self.title = [dict objectForKey:@"title"];
+        self.link = [dict objectForKey:@"link"];
+    }
+    return self;
+}
 
 @end

@@ -1,0 +1,12 @@
+
+/* Class = "IBUILabel"; text = "Welcome"; ObjectID = "5mt-nR-C0s"; */
+"5mt-nR-C0s.text" = "Welcome";
+
+/* Class = "IBUILabel"; text = "Search Question"; ObjectID = "TT3-Ti-OK1"; */
+"TT3-Ti-OK1.text" = "Search Question";
+
+/* Class = "IBUILabel"; text = "Look at User"; ObjectID = "XeI-3n-Rju"; */
+"XeI-3n-Rju.text" = "Look at User";
+
+/* Class = "IBUINavigationItem"; title = "Root View Controller"; ObjectID = "n3K-pG-Dsb"; */
+"n3K-pG-Dsb.title" = "Root View Controller";

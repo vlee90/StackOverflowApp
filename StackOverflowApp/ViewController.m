@@ -10,20 +10,14 @@
 
 @interface ViewController ()
 
-@property (nonatomic, strong) AppDelegate *appDelegate;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.appDelegate = [[UIApplication sharedApplication] delegate];
-    NetworkController *networkController = [self.appDelegate networkController];
-    [networkController fetchQuestionBasedOnTag: @"Swift" completionBlock:^(NSDictionary *data, NSError *error) {
-        if (error == nil) {
-            NSArray *itemDictionary = (NSArray *)[data objectForKey:@"items"];
-        }
-    }];
+    self.title = @"HI";
     
 }
 

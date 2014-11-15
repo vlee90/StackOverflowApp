@@ -1,0 +1,777 @@
+{
+"items": [
+{
+"tags": [
+"swift"
+],
+"owner": {
+"reputation": 1,
+"user_id": 4194271,
+"user_type": "registered",
+"profile_image": "https://lh5.googleusercontent.com/-fBQ-TjeKS0E/AAAAAAAAAAI/AAAAAAAAAD8/uroRUWT-ch8/photo.jpg?sz=128",
+"display_name": "g zw",
+"link": "http://stackoverflow.com/users/4194271/g-zw"
+},
+"is_answered": false,
+"view_count": 7,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1415935556,
+"creation_date": 1415934890,
+"last_edit_date": 1415935556,
+"question_id": 26922312,
+"link": "http://stackoverflow.com/questions/26922312/uibutton-as-a-property-is-nil-when-i-initialize-in-init-function",
+"title": "UIButton as a property is nil when I initialize in init function"
+},
+{
+"tags": [
+"ios7",
+"swift",
+"popviewcontroller"
+],
+"owner": {
+"reputation": 26,
+"user_id": 3466897,
+"user_type": "registered",
+"accept_rate": 43,
+"profile_image": "https://www.gravatar.com/avatar/9c89177094b88507dd810996cc5c11c5?s=128&d=identicon&r=PG&f=1",
+"display_name": "kopletusprime",
+"link": "http://stackoverflow.com/users/3466897/kopletusprime"
+},
+"is_answered": false,
+"view_count": 4,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1415935458,
+"creation_date": 1415935458,
+"question_id": 26922392,
+"link": "http://stackoverflow.com/questions/26922392/popview-after-dismiss-modal-view-controller-in-swift",
+"title": "Popview after dismiss modal view controller in swift"
+},
+{
+"tags": [
+"swift",
+"uistoryboardsegue",
+"collectionview"
+],
+"owner": {
+"reputation": 55,
+"user_id": 2611897,
+"user_type": "registered",
+"accept_rate": 92,
+"profile_image": "https://www.gravatar.com/avatar/6a919cf0ee5994c3e86acf4a029e95f2?s=128&d=identicon&r=PG",
+"display_name": "SKYnine",
+"link": "http://stackoverflow.com/users/2611897/skynine"
+},
+"is_answered": true,
+"view_count": 24,
+"accepted_answer_id": 26918753,
+"answer_count": 2,
+"score": 0,
+"last_activity_date": 1415934344,
+"creation_date": 1415838418,
+"last_edit_date": 1415934344,
+"question_id": 26899278,
+"link": "http://stackoverflow.com/questions/26899278/prepareforsegue-collectionview-indexpath-using-swift",
+"title": "prepareForSegue collectionView indexPath using swift"
+},
+{
+"tags": [
+"swift",
+"street-address",
+"geocode"
+],
+"owner": {
+"reputation": 55,
+"user_id": 2611897,
+"user_type": "registered",
+"accept_rate": 92,
+"profile_image": "https://www.gravatar.com/avatar/6a919cf0ee5994c3e86acf4a029e95f2?s=128&d=identicon&r=PG",
+"display_name": "SKYnine",
+"link": "http://stackoverflow.com/users/2611897/skynine"
+},
+"is_answered": false,
+"view_count": 6,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1415933798,
+"creation_date": 1415933798,
+"question_id": 26922164,
+"link": "http://stackoverflow.com/questions/26922164/find-address-using-place-name-ios",
+"title": "find address using place name iOS"
+},
+{
+"tags": [
+"swift"
+],
+"owner": {
+"reputation": 127,
+"user_id": 1710002,
+"user_type": "registered",
+"accept_rate": 62,
+"profile_image": "https://www.gravatar.com/avatar/8ec5db4b91c0b449fb38477de378cee6?s=128&d=identicon&r=PG",
+"display_name": "fiorgodx",
+"link": "http://stackoverflow.com/users/1710002/fiorgodx"
+},
+"is_answered": false,
+"view_count": 7,
+"answer_count": 1,
+"score": 0,
+"last_activity_date": 1415933072,
+"creation_date": 1415932590,
+"last_edit_date": 1415932980,
+"question_id": 26922013,
+"link": "http://stackoverflow.com/questions/26922013/spritekit-view-is-sometimes-nil-and-causing-crash",
+"title": "SpriteKit: View is sometimes nil and causing crash"
+},
+{
+"tags": [
+"ios",
+"iphone",
+"xcode",
+"swift",
+"ios8"
+],
+"owner": {
+"reputation": 3,
+"user_id": 3565546,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/713cb4ea10ab8a7deb78611a0ad94795?s=128&d=identicon&r=PG&f=1",
+"display_name": "asensionacher",
+"link": "http://stackoverflow.com/users/3565546/asensionacher"
+},
+"is_answered": false,
+"view_count": 17,
+"answer_count": 0,
+"score": -1,
+"last_activity_date": 1415933018,
+"creation_date": 1415933018,
+"question_id": 26922062,
+"link": "http://stackoverflow.com/questions/26922062/swift-trouble-with-classes",
+"title": "Swift: trouble with classes"
+},
+{
+"tags": [
+"swift",
+"int",
+"double",
+"operators",
+"exponential"
+],
+"owner": {
+"reputation": 430,
+"user_id": 2303865,
+"user_type": "registered",
+"profile_image": "http://i.stack.imgur.com/Xs4RX.jpg?s=128&g=1",
+"display_name": "Leonardo Savio Dabus",
+"link": "http://stackoverflow.com/users/2303865/leonardo-savio-dabus"
+},
+"is_answered": true,
+"view_count": 110,
+"accepted_answer_id": 26797755,
+"answer_count": 3,
+"score": 0,
+"last_activity_date": 1415932947,
+"creation_date": 1415335898,
+"last_edit_date": 1415546655,
+"question_id": 26794282,
+"link": "http://stackoverflow.com/questions/26794282/how-do-i-make-my-operator-work-with-double-and-int",
+"title": "How do I make my ^^ operator work with Double and Int?"
+},
+{
+"tags": [
+"osx",
+"swift",
+"osx-yosemite",
+"appkit"
+],
+"owner": {
+"reputation": 762,
+"user_id": 284120,
+"user_type": "registered",
+"accept_rate": 88,
+"profile_image": "https://www.gravatar.com/avatar/5b66e283d81b96a9146c20c128f947ca?s=128&d=identicon&r=PG",
+"display_name": "tobygriffin",
+"link": "http://stackoverflow.com/users/284120/tobygriffin"
+},
+"is_answered": true,
+"view_count": 39,
+"bounty_amount": 100,
+"bounty_closes_date": 1416457178,
+"answer_count": 2,
+"score": 1,
+"last_activity_date": 1415932351,
+"creation_date": 1415591902,
+"last_edit_date": 1415852009,
+"question_id": 26836515,
+"link": "http://stackoverflow.com/questions/26836515/nsviewcontroller-reference-cycle-with-storyboards",
+"title": "NSViewController reference cycle with storyboards"
+},
+{
+"tags": [
+"swift",
+"ibaction"
+],
+"owner": {
+"reputation": 1,
+"user_id": 4250683,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/4b8a2cc127fef1f65cbcf9d90c618019?s=128&d=identicon&r=PG&f=1",
+"display_name": "Leighton",
+"link": "http://stackoverflow.com/users/4250683/leighton"
+},
+"is_answered": false,
+"view_count": 7,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1415931925,
+"creation_date": 1415931925,
+"question_id": 26921916,
+"link": "http://stackoverflow.com/questions/26921916/using-ibaction-button-to-cycle-two-different-sets-of-instructions-upon-multiple",
+"title": "Using IBAction button to cycle two different sets of instructions upon multiple presses"
+},
+{
+"tags": [
+"ios",
+"class",
+"swift",
+"nsuserdefaults",
+"nsmutabledictionary"
+],
+"owner": {
+"reputation": 6,
+"user_id": 4238025,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/72add2d8a30832e2a65ee014dd5f557f?s=128&d=identicon&r=PG&f=1",
+"display_name": "Jerry",
+"link": "http://stackoverflow.com/users/4238025/jerry"
+},
+"is_answered": false,
+"view_count": 49,
+"answer_count": 1,
+"score": 1,
+"last_activity_date": 1415931514,
+"creation_date": 1415676834,
+"last_edit_date": 1415931514,
+"question_id": 26857039,
+"link": "http://stackoverflow.com/questions/26857039/how-do-i-persist-a-dictionary-if-the-object-is-an-item-from-a-class-that-stores",
+"title": "How do I persist a dictionary if the object is an item from a class that stores three values in Swift?"
+},
+{
+"tags": [
+"ios",
+"audio",
+"swift"
+],
+"owner": {
+"reputation": 15,
+"user_id": 3332974,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/04797c466978534dd6de5e71359c1468?s=128&d=identicon&r=PG&f=1",
+"display_name": "user3332974",
+"link": "http://stackoverflow.com/users/3332974/user3332974"
+},
+"is_answered": false,
+"view_count": 7,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1415931172,
+"creation_date": 1415931172,
+"question_id": 26921820,
+"link": "http://stackoverflow.com/questions/26921820/playing-audio-file-from-the-directory-in-swift",
+"title": "Playing Audio File from the directory in swift"
+},
+{
+"tags": [
+"arrays",
+"swift",
+"segue",
+"xcode6.1"
+],
+"owner": {
+"reputation": 86,
+"user_id": 3033386,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/c008d461acdc88d7e3dda593ad8bd45f?s=128&d=identicon&r=PG&f=1",
+"display_name": "Computer_whiz123",
+"link": "http://stackoverflow.com/users/3033386/computer-whiz123"
+},
+"is_answered": false,
+"view_count": 6,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1415931020,
+"creation_date": 1415931020,
+"question_id": 26921806,
+"link": "http://stackoverflow.com/questions/26921806/thread-1-exc-bad-access-when-retrieving-data-from-an-array",
+"title": "Thread 1: EXC_BAD_ACCESS when retrieving data from an Array"
+},
+{
+"tags": [
+"swift",
+"ios8"
+],
+"owner": {
+"reputation": 6,
+"user_id": 1561709,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/cfadf753e95e35a1618a60080a14d876?s=128&d=identicon&r=PG",
+"display_name": "Jetrois",
+"link": "http://stackoverflow.com/users/1561709/jetrois"
+},
+"is_answered": false,
+"view_count": 26,
+"closed_date": 1415905891,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1415929172,
+"creation_date": 1415905666,
+"last_edit_date": 1415929172,
+"question_id": 26916509,
+"link": "http://stackoverflow.com/questions/26916509/learning-swift-advice",
+"closed_reason": "primarily opinion-based",
+"title": "Learning Swift Advice"
+},
+{
+"tags": [
+"swift",
+"sprite-kit"
+],
+"owner": {
+"reputation": 383,
+"user_id": 680761,
+"user_type": "registered",
+"accept_rate": 63,
+"profile_image": "https://www.gravatar.com/avatar/805e8253296bb3a0812091500080f556?s=128&d=identicon&r=PG",
+"display_name": "Jason McCarrell",
+"link": "http://stackoverflow.com/users/680761/jason-mccarrell"
+},
+"is_answered": true,
+"view_count": 34,
+"answer_count": 1,
+"score": 1,
+"last_activity_date": 1415928906,
+"creation_date": 1415926012,
+"last_edit_date": 1415926534,
+"question_id": 26921177,
+"link": "http://stackoverflow.com/questions/26921177/does-swift-not-allow-initialization-in-function-parameters",
+"title": "does swift not allow initialization in function parameters?"
+},
+{
+"tags": [
+"cocoa",
+"swift"
+],
+"owner": {
+"reputation": 54,
+"user_id": 1612935,
+"user_type": "registered",
+"accept_rate": 45,
+"profile_image": "https://www.gravatar.com/avatar/38c19854b61961bb40a45da255458ba6?s=128&d=identicon&r=PG",
+"display_name": "ckbrumb",
+"link": "http://stackoverflow.com/users/1612935/ckbrumb"
+},
+"is_answered": false,
+"view_count": 8,
+"answer_count": 1,
+"score": 0,
+"last_activity_date": 1415928865,
+"creation_date": 1415918402,
+"question_id": 26919822,
+"link": "http://stackoverflow.com/questions/26919822/issues-with-optional-types-and-uidynamicanimator",
+"title": "Issues with optional types and UIDynamicAnimator"
+},
+{
+"tags": [
+"arrays",
+"swift",
+"nsarray",
+"nspredicate"
+],
+"owner": {
+"reputation": 1,
+"user_id": 1325792,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/b9ada91271c30a5c7330071e82b3cf40?s=128&d=identicon&r=PG",
+"display_name": "user1325792",
+"link": "http://stackoverflow.com/users/1325792/user1325792"
+},
+"is_answered": false,
+"view_count": 10,
+"answer_count": 1,
+"score": 0,
+"last_activity_date": 1415927413,
+"creation_date": 1415922443,
+"last_edit_date": 1415922584,
+"question_id": 26920600,
+"link": "http://stackoverflow.com/questions/26920600/predicate-to-filter-array-of-strings-in-swift-throws-error-saying-nscfstring-is",
+"title": "Predicate to filter array of strings in SWIFT throws error saying NSCFString is not key-value coding"
+},
+{
+"tags": [
+"generics",
+"swift"
+],
+"owner": {
+"reputation": 11,
+"user_id": 3919962,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/24bcd6ed3e0d8a09e32ad202ff2a5bdd?s=128&d=identicon&r=PG&f=1",
+"display_name": "bart",
+"link": "http://stackoverflow.com/users/3919962/bart"
+},
+"is_answered": true,
+"view_count": 25,
+"answer_count": 2,
+"score": 2,
+"last_activity_date": 1415927167,
+"creation_date": 1415913533,
+"last_edit_date": 1415915429,
+"question_id": 26918594,
+"link": "http://stackoverflow.com/questions/26918594/implementing-set-addsequence-in-swift",
+"title": "Implementing Set.addSequence in Swift"
+},
+{
+"tags": [
+"swift",
+"uiview",
+"xib",
+"nib"
+],
+"owner": {
+"reputation": 1052,
+"user_id": 1223595,
+"user_type": "registered",
+"accept_rate": 86,
+"profile_image": "https://www.gravatar.com/avatar/770fb9d9d0c71f2c21de84c60653c230?s=128&d=identicon&r=PG",
+"display_name": "steventnorris",
+"link": "http://stackoverflow.com/users/1223595/steventnorris"
+},
+"is_answered": true,
+"view_count": 19,
+"accepted_answer_id": 26915114,
+"answer_count": 1,
+"score": 0,
+"last_activity_date": 1415926397,
+"creation_date": 1415900552,
+"question_id": 26915072,
+"link": "http://stackoverflow.com/questions/26915072/load-xib-into-view-of-another-xib",
+"title": "Load XIB into View of another XIB"
+},
+{
+"tags": [
+"ios",
+"swift"
+],
+"owner": {
+"reputation": 6,
+"user_id": 3062571,
+"user_type": "registered",
+"profile_image": "http://graph.facebook.com/100000012003380/picture?type=large",
+"display_name": "user3062571",
+"link": "http://stackoverflow.com/users/3062571/user3062571"
+},
+"is_answered": true,
+"view_count": 20,
+"accepted_answer_id": 26920760,
+"answer_count": 3,
+"score": 1,
+"last_activity_date": 1415926378,
+"creation_date": 1415923257,
+"last_edit_date": 1415925169,
+"question_id": 26920722,
+"link": "http://stackoverflow.com/questions/26920722/make-public-class-between-today-extension-and-viewcontroller-in-app",
+"title": "make public class between Today extension and ViewController in app"
+},
+{
+"tags": [
+"osx",
+"cocoa",
+"swift",
+"swift-playground"
+],
+"owner": {
+"reputation": 1350,
+"user_id": 308020,
+"user_type": "registered",
+"accept_rate": 100,
+"profile_image": "https://www.gravatar.com/avatar/b2e828f35f191decc331515f77099ba0?s=128&d=identicon&r=PG",
+"display_name": "Jay",
+"link": "http://stackoverflow.com/users/308020/jay"
+},
+"is_answered": true,
+"view_count": 54,
+"accepted_answer_id": 26836714,
+"answer_count": 2,
+"score": 2,
+"last_activity_date": 1415924930,
+"creation_date": 1415564174,
+"last_edit_date": 1415592045,
+"question_id": 26832794,
+"link": "http://stackoverflow.com/questions/26832794/undeclared-type-nsview-in-playground",
+"title": "Undeclared Type &#39;NSView&#39; in Playground"
+},
+{
+"tags": [
+"ios",
+"xcode",
+"swift"
+],
+"owner": {
+"reputation": 121,
+"user_id": 3696798,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/ab86feaa934235389b714b491e8ef441?s=128&d=identicon&r=PG&f=1",
+"display_name": "Simon",
+"link": "http://stackoverflow.com/users/3696798/simon"
+},
+"is_answered": false,
+"view_count": 23,
+"closed_date": 1415926644,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1415924820,
+"creation_date": 1415924820,
+"question_id": 26920991,
+"link": "http://stackoverflow.com/questions/26920991/ios-application-structure",
+"closed_reason": "too broad",
+"title": "iOS application structure"
+},
+{
+"tags": [
+"xcode",
+"sdk",
+"swift",
+"hue"
+],
+"owner": {
+"reputation": 1,
+"user_id": 3718312,
+"user_type": "registered",
+"profile_image": "http://graph.facebook.com/100002433961292/picture?type=large",
+"display_name": "user3718312",
+"link": "http://stackoverflow.com/users/3718312/user3718312"
+},
+"is_answered": true,
+"view_count": 431,
+"answer_count": 2,
+"score": 0,
+"last_activity_date": 1415922922,
+"creation_date": 1402162598,
+"last_edit_date": 1402164155,
+"question_id": 24099901,
+"link": "http://stackoverflow.com/questions/24099901/apple-xcode-swift-language-get-phillips-hue-framework-sdk-running",
+"title": "Apple Xcode Swift Language Get Phillips Hue Framework SDK running"
+},
+{
+"tags": [
+"ios",
+"swift"
+],
+"owner": {
+"reputation": 22,
+"user_id": 3308785,
+"user_type": "registered",
+"accept_rate": 17,
+"profile_image": "https://www.gravatar.com/avatar/daaa090e89a3d780a562f081a8f7570b?s=128&d=identicon&r=PG&f=1",
+"display_name": "ketokun",
+"link": "http://stackoverflow.com/users/3308785/ketokun"
+},
+"is_answered": true,
+"view_count": 10,
+"answer_count": 1,
+"score": -2,
+"last_activity_date": 1415922391,
+"creation_date": 1415921473,
+"last_edit_date": 1415922391,
+"question_id": 26920434,
+"link": "http://stackoverflow.com/questions/26920434/collectionviewcontroller-logic-error",
+"title": "CollectionViewController logic error?"
+},
+{
+"tags": [
+"ios",
+"swift",
+"nsdate",
+"nsdatecomponents"
+],
+"owner": {
+"reputation": 2648,
+"user_id": 159856,
+"user_type": "registered",
+"accept_rate": 76,
+"profile_image": "https://www.gravatar.com/avatar/1aa03a2aa001887ef63d782aa41d5412?s=128&d=identicon&r=PG",
+"display_name": "lemon",
+"link": "http://stackoverflow.com/users/159856/lemon"
+},
+"is_answered": true,
+"view_count": 14,
+"answer_count": 1,
+"score": -1,
+"last_activity_date": 1415920975,
+"creation_date": 1415920556,
+"last_edit_date": 1415920733,
+"question_id": 26920258,
+"link": "http://stackoverflow.com/questions/26920258/nsdatecomponents-in-swift-is-not-returning-weekday",
+"title": "NSDateComponents in Swift is not returning Weekday"
+},
+{
+"tags": [
+"ios",
+"objective-c",
+"swift"
+],
+"owner": {
+"reputation": 3305,
+"user_id": 821722,
+"user_type": "registered",
+"accept_rate": 87,
+"profile_image": "https://www.gravatar.com/avatar/fecf1e52acf92d1391d5389cf32acf9f?s=128&d=identicon&r=PG",
+"display_name": "thatidiotguy",
+"link": "http://stackoverflow.com/users/821722/thatidiotguy"
+},
+"is_answered": true,
+"view_count": 52,
+"accepted_answer_id": 26891797,
+"answer_count": 3,
+"score": 2,
+"last_activity_date": 1415920936,
+"creation_date": 1415806073,
+"question_id": 26890537,
+"link": "http://stackoverflow.com/questions/26890537/disabling-nslog-for-production-in-swift-project",
+"title": "Disabling NSLog For Production In Swift Project"
+},
+{
+"tags": [
+"sockets",
+"swift",
+"network-programming",
+"ios8",
+"gcdasyncsocket"
+],
+"owner": {
+"reputation": 143,
+"user_id": 301214,
+"user_type": "registered",
+"accept_rate": 73,
+"profile_image": "https://www.gravatar.com/avatar/1873fd148c204fa132576dff41b90523?s=128&d=identicon&r=PG&f=1",
+"display_name": "Vik Singh",
+"link": "http://stackoverflow.com/users/301214/vik-singh"
+},
+"is_answered": false,
+"view_count": 2,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1415920491,
+"creation_date": 1415920491,
+"question_id": 26920250,
+"link": "http://stackoverflow.com/questions/26920250/gcdasyncsocket-on-browser-connects-and-disconnects-immediately-with-socket-clos",
+"title": "GCDAsyncSocket on browser connects and disconnects immediately with &quot;Socket closed by remote peer&quot; error"
+},
+{
+"tags": [
+"ios",
+"xcode",
+"swift",
+"xcode6"
+],
+"owner": {
+"reputation": 48,
+"user_id": 3908601,
+"user_type": "registered",
+"accept_rate": 100,
+"profile_image": "http://graph.facebook.com/1405443037/picture?type=large",
+"display_name": "Nate Birkholz",
+"link": "http://stackoverflow.com/users/3908601/nate-birkholz"
+},
+"is_answered": false,
+"view_count": 47,
+"answer_count": 2,
+"score": 0,
+"last_activity_date": 1415920445,
+"creation_date": 1415896542,
+"question_id": 26913799,
+"link": "http://stackoverflow.com/questions/26913799/ios-swift-xcode-6-remove-println-for-release-version",
+"title": "iOS Swift Xcode 6: Remove println() for release version"
+},
+{
+"tags": [
+"ios",
+"swift",
+"mapkit",
+"gestures"
+],
+"owner": {
+"reputation": 6,
+"user_id": 4249658,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/2d11d923b909a97fad166071a964b7f0?s=128&d=identicon&r=PG&f=1",
+"display_name": "Rico30",
+"link": "http://stackoverflow.com/users/4249658/rico30"
+},
+"is_answered": false,
+"view_count": 18,
+"answer_count": 1,
+"score": 1,
+"last_activity_date": 1415920353,
+"creation_date": 1415906899,
+"last_edit_date": 1415916059,
+"question_id": 26916833,
+"link": "http://stackoverflow.com/questions/26916833/mapview-dont-work-anymore-if-i-add-a-gesturerecognizer",
+"title": "MapView dont work anymore if I add a GestureRecognizer"
+},
+{
+"tags": [
+"objective-c",
+"swift",
+"xcode6"
+],
+"owner": {
+"reputation": 8,
+"user_id": 3720455,
+"user_type": "registered",
+"profile_image": "https://www.gravatar.com/avatar/3e80e09948826803805c596b4ccb1d89?s=128&d=identicon&r=PG&f=1",
+"display_name": "user3720455",
+"link": "http://stackoverflow.com/users/3720455/user3720455"
+},
+"is_answered": false,
+"view_count": 12,
+"answer_count": 0,
+"score": 0,
+"last_activity_date": 1415919619,
+"creation_date": 1415919619,
+"question_id": 26920071,
+"link": "http://stackoverflow.com/questions/26920071/testing-a-combined-objective-c-swift-application-resulting-in-unresolved-identif",
+"title": "Testing a combined Objective-C/Swift application resulting in unresolved identifier?"
+},
+{
+"tags": [
+"json",
+"swift"
+],
+"owner": {
+"reputation": 14,
+"user_id": 4080925,
+"user_type": "registered",
+"profile_image": "https://lh6.googleusercontent.com/-z5xoCOLjxeI/AAAAAAAAAAI/AAAAAAAAAAA/Aq8GF_3T7hM/photo.jpg?sz=128",
+"display_name": "Jim Baughman",
+"link": "http://stackoverflow.com/users/4080925/jim-baughman"
+},
+"is_answered": false,
+"view_count": 15,
+"closed_date": 1415923495,
+"answer_count": 0,
+"score": -3,
+"last_activity_date": 1415919424,
+"creation_date": 1415915554,
+"last_edit_date": 1415919424,
+"question_id": 26919127,
+"link": "http://stackoverflow.com/questions/26919127/swift-json-string-value-to-label-text",
+"closed_reason": "unclear what you&#39;re asking",
+"title": "Swift json string value to label.text"
+}
+],
+"has_more": true,
+"quota_max": 10000,
+"quota_remaining": 9943
+}

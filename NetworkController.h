@@ -7,11 +7,16 @@
 //
 
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "Question.h"
 
 @interface NetworkController: NSObject
 
-- (void) fetchQuestionBasedOnTag: (NSString *) tag completionBlock:(void(^)(NSDictionary *data, NSError *error))completionBlockName;
+@property (nonatomic, strong) NSString *token;
+
+- (void) fetchQuestionBasedOnTag: (NSString *) tag completionBlock:(void(^)(NSMutableArray *questionArray, NSError *error))completionBlockName;
+
+- (void) requestOAuth: (NSString *) url;
 
 - (NSDictionary *) parseJSON:(NSData *)JSONData;
 

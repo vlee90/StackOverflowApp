@@ -13,6 +13,8 @@
 @property (nonatomic, strong) NSURLSession *session;
 @property (nonatomic, strong) NSURLSessionConfiguration *configuration;
 @property (nonatomic, strong) NSOperationQueue *queue;
+@property (nonatomic, strong) NSString *apiDomain;
+@property (nonatomic, strong) NSString *apiSite;
 
 @end
 
@@ -28,11 +30,19 @@
     if (self) {
         self.configuration = [NSURLSessionConfiguration ephemeralSessionConfiguration];
         self.session = [NSURLSession sessionWithConfiguration: self.configuration];
+        self.apiDomain = @"http://api.stackexchange.com/2.2/";
+        self.apiSite = @"site=stackoverflow";
+        
     }
     return self;
 }
 
-- (void) fetchQuestionBasedOnTag: (NSString *) tag completionBlock:(void(^)(NSDictionary *data, NSError *error))completionBlockName {
+- (void) requestOAuth: (NSString *) url {
+    NSURL *getURL = [[NSURL alloc] initWithString:url];
+    [[UIApplication sharedApplication] openURL: getURL];
+}
+
+- (void) fetchQuestionBasedOnTag: (NSString *) tag completionBlock:(void(^)(NSMutableArray *questionArray, NSError *error))completionBlockName {
     NSString *urlString = [NSString stringWithFormat: @"https://api.stackexchange.com/2.2/questions?order=desc&sort=activity&tagged=%@&site=stackoverflow", tag];
     NSURL *url = [[NSURL alloc] initWithString: urlString];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL: url];
@@ -44,27 +54,18 @@
             if (code <= 299 && code >= 200) {
                 NSLog(@"%ld: Success", code);
                 NSDictionary *dictionary = [self parseJSON:data];
+                NSArray *itemArray = [dictionary objectForKey:@"items"];
+                NSMutableArray *questionArrayToPass = [[NSMutableArray alloc] init];
+                for (NSDictionary *questionDict in itemArray) {
+                    Question *question = [[Question alloc] initWithDictionary:questionDict];
+                    [questionArrayToPass addObject: question];
+                }
                 [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-                    completionBlockName(dictionary, error);
+                    completionBlockName(questionArrayToPass, error);
                 }];
             }
-            else if (code == 400) {
-                NSLog(@"%ld: Bad Request - Syntax error likely", code);
-            }
-            else if (code == 401) {
-                NSLog(@"%ld: Unauthorized - Authorization either not provided or incorrect", code);
-            }
-            else if (code == 403) {
-                NSLog(@"%ld: Forbidden - Request valid, but server will not respond", code);
-            }
-            else if (code == 404) {
-                NSLog(@"%ld: Not Found - Resource not found", code);
-            }
-            else if (code == 429) {
-                NSLog(@"%ld: Too many requests - Rate limited", code);
-            }
-            else if (code <= 599 && code >= 500) {
-                NSLog(@"%ld: Server failed", code);
+            else {
+                completionBlockName(nil, error);
             }
         }
         else {
